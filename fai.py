@@ -13,8 +13,7 @@ SHORT_NORMALIZE = (1.0/32768.0)
 #open a wav format music  
 f = wave.open("samples/FAI_amplified.wav","rb")
 #f = wave.open("samples/sample.wav","rb")
-
-#instantiate PyAudio  
+ 
 p = pyaudio.PyAudio()  
 
 #open stream  
